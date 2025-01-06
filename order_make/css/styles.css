@@ -1,0 +1,287 @@
+.sale_order_full_table,
+#bx-soa-order-form
+{
+  display: none !important;
+}
+
+.buy_no_cab #send_order
+{
+  width: 100%;
+  height: 50px;
+  margin: 30px 0 5px 0;
+  border-radius: 50px;
+  border: 2px solid #A2AEC5;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+  cursor: pointer;
+}
+
+.buy_no_cab #send_order div
+{
+  font-size: 16px;
+  color: #51607E;
+}
+
+.buy_no_cab .inp_butt
+{
+  transition: none !important;
+}
+
+.buy_no_cab .check_box
+{
+  position: relative;
+  border-radius: 40px;
+  padding: 50px 40px 50px 60px;
+
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.buy_no_cab .check_box::before 
+{
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 40px;
+  padding: 10px;
+  background: linear-gradient(to left, #F8FBFF, rgb(186, 222, 255, 0.5));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  z-index: -1;
+}
+
+.buy_no_cab .text_box
+{
+  width: 100%;
+  max-width: 480px;
+  padding-right: 10px;
+}
+
+.buy_no_cab .top_line
+{
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.buy_no_cab .bott_text
+{
+  line-height: 1.7;
+  font-size: 16px;
+  color: #63718C;
+}
+
+.buy_no_cab .butt_line
+{
+  display: flex;
+  margin-top: 20px;
+}
+
+.buy_no_cab .butt_line button
+{
+  height: 50px;
+  padding: 0 30px;
+  border-radius: 50px;
+  border: 2px solid #121419;
+  background: #FFFFFF;
+  font-size: 16px;
+  margin: 0 5px;
+}
+
+.buy_no_cab .fancybox-close-small
+{
+  display: none;
+}
+
+.buy_no_cab .title_line
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.buy_no_cab .form_title
+{
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.buy_no_cab .form_line
+{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.buy_no_cab .line_title 
+{
+  width: 160px;
+  padding-right: 10px;
+  font-size: 16px;
+  color: #808DA5;
+}
+
+.buy_no_cab .inp_box
+{
+  width: calc(100% - 160px);
+}
+
+.buy_no_cab .radio_box
+{
+  margin-right: 30px;
+}
+
+.buy_no_cab .inp_box.radio
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.buy_no_cab .univ_form_box.three
+{
+  max-width: 100%;
+}
+
+.buy_no_cab .univ_form_box.one
+{
+  max-width: calc(33.3% - 10px)
+}
+
+.buy_no_cab .univ_form_box.two
+{
+  max-width: 66.6%;
+}
+
+.buy_no_cab .inp_box.inp
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.buy_no_cab .form_title.two_line
+{
+  margin: 60px 0 30px 0;
+}
+
+.buy_no_cab .inp_box
+{
+  display: flex;
+}
+
+.buy_no_cab .univ_form_box.little
+{
+  max-width: 120px;
+}
+
+.buy_no_cab .univ_inp.no_img
+{
+  padding: 0 20px;
+}
+
+.buy_no_cab .univ_form_box.half
+{
+  max-width: calc(66.6% - 120px - 15px);
+  margin-left: 15px;
+}
+
+.buy_no_cab .univ_form_box.little_two
+{
+  width: 130px;
+  margin-left: 15px;
+}
+
+.buy_no_cab #buy_form_no_cab
+{
+  width: 100%;
+  max-width: 1040px;
+  margin-top: 50px;
+}
+
+.buy_no_cab .univ_inp.textarea
+{
+  height: 120px;
+}
+
+.buy_no_cab .textarea_box .univ_icon
+{ 
+  top: 12px;
+}
+
+.buy_no_cab .univ_inp.textarea
+{
+  padding: 15px 50px;
+}
+
+.buy_no_cab .form_line.textarea_line
+{
+  align-items: flex-start;
+}
+
+.buy_no_cab .form_line.textarea_line .line_title
+{
+  margin-top: 20px;
+}
+
+.buy_no_cab .left_box_order .left_order_box
+{
+  overflow: visible;
+}
+
+.buy_no_cab .line_title.check_boxx
+{
+  margin-top: 3px !important;
+}
+
+.buy_no_cab .radio_box
+{
+  margin-bottom: 15px;
+}
+
+.buy_no_cab .form_line.marginn
+{
+  margin-top: 30px;
+}
+
+.buy_no_cab .remark
+{
+  font-size: 15px;
+  color: #63718C;
+  margin-top: 20px;
+}
+
+.buy_no_cab
+{
+
+}
+
+.buy_no_cab
+{
+  
+}
+
+.buy_no_cab
+{
+  
+}
+
+.buy_no_cab
+{
+  
+}
+
+.buy_no_cab
+{
+  
+}
+
+.buy_no_cab
+{
+  
+}

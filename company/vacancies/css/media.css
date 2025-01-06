@@ -1,0 +1,279 @@
+@media screen and (max-width: 1700px)
+{
+	.vacancy .price
+	{
+		font-size: 22px;
+	}
+
+	.vacancy .tab_item
+	{
+		padding: 30px;
+	}
+
+	.vacancy .delimeter 
+	{
+		width: calc(100% + 60px);
+		transform: translateX(-30px);
+	}
+}
+
+@media screen and (max-width: 1350px)
+{
+	.vacancy .right_box
+	{
+		flex-direction: column;
+		align-items: flex-end;
+	}
+
+	.vacancy .left_box
+	{
+		width: 100%;
+	}
+}
+
+/***********************/
+
+@media screen and (max-width: 1300px)
+{
+	#resume_popup
+	{
+		padding: 40px;
+	}
+
+	#resume_popup .form_grid 
+	{
+		grid-template-columns: 1.6fr 4fr;
+	}
+
+	.vacancy .prop_item
+	{
+		padding: 0 10px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	#resume_popup .success
+	{
+		margin-top: 110px;
+		margin-bottom: 110px;
+	}
+
+	#resume_popup .polite_butt 
+	{
+		margin-top: 20px;
+	}
+
+	.my-checkbox .galka 
+	{
+		left: 7px !important;
+		top: 5px !important;
+	}
+
+	#resume_popup .order_button svg path
+	{
+		stroke: #121419;
+	}
+
+	#resume_popup .order_button
+	{
+		width: 100%;
+		max-width: 320px;
+		margin: 40px auto 0 auto;
+		border: 2px solid #121419;
+	}
+
+	#resume_popup .order_button div
+	{
+		color: #121419;
+	}
+
+	#resume_popup .polite_text 
+	{
+		width: calc(100% - 32px);
+		margin-left: 10px;
+	}
+
+	#resume_popup .my-checkbox
+	{
+		width: 22px;
+		height: 22px;
+	}
+
+	#resume_popup .polite_butt
+	{
+		flex-direction: column;
+	}
+
+	#resume_popup .form_field 
+	{
+		padding: 15px 30px 15px 50px;
+	}
+
+	#resume_popup .grid_item.textarea
+	{
+		height: 190px;
+	}
+
+	#resume_popup .lett_count
+	{
+		display: none;
+	}
+
+	#resume_popup .pop_title
+	{
+		margin-bottom: 20px;
+	}
+
+	#resume_popup
+	{
+		border-radius: 18px;
+		padding: 25px;
+	}
+
+	#resume_popup .grid_item.resum_butt 
+	{
+		padding: 13px 25px;
+	}
+
+	#resume_popup #close_resume_popup 
+	{
+		position: absolute;
+		right: 17px;
+		top: 10px;
+		width: 12px;
+	}
+
+	#resume_popup .pop_title .text, 
+	#resume_popup .pop_title .text * 
+	{
+		font-size: 20px;
+	}
+
+	#resume_popup .form_grid
+	{
+		grid-template-columns: 1fr;
+	}
+	
+	#resume_popup .grid_item.textarea 
+	{
+		grid-row: 5 / 6;
+		grid-column: 1 / 2;
+	}
+
+	.vacancy .position
+	{
+		margin-bottom: 10px;
+	}
+
+	.vacancy .salary_box
+	{
+		text-align: left;
+		width: 100%;
+	}
+
+	.vacancy .titlee,
+	.vacancy .titlee *
+	{
+		font-size: 20px !important;
+	}
+
+	.vacancy .tab_item
+	{
+		padding: 20px 20px 30px 20px;
+	}
+
+	.vacancy .right_box
+	{
+		padding-left: 10px;
+	}
+
+	.vacancy .position
+	{
+		font-size: 17px;
+	}
+
+	.vacancy .props
+	{
+		flex-direction: column;
+	}
+
+	.vacancy .prop_item
+	{
+		padding: 0px;
+		border: none;
+	}
+
+	.vacancy .prop_item
+	{
+		font-size: 16px;
+		margin: 0px;
+	}
+
+	.vacancy .price
+	{
+		font-size: 18px;
+	}
+
+	.vacancy .salary_title
+	{
+		margin: 0px;
+	}
+
+	.vacancy .salary_box
+	{
+		margin: 15px 0 0 0;
+	}
+
+	.vacancy .descr_item
+	{
+		flex-direction: column;
+	}
+
+	.vacancy .name,
+	.vacancy .descr_text
+	{
+		width: 100%;
+		padding: 0px;
+	}
+
+	.vacancy .descr_text ul
+	{
+		padding-left: 20px;
+	}
+
+	.vacancy .delimeter 
+	{
+		margin: 20px 0;
+		width: calc(100% + 40px);
+		transform: translateX(-20px);
+	}
+
+	.vacancy .name
+	{
+		margin: 0 0 10px 0;
+	}
+
+	.vacancy .descr_text *
+	{
+		font-size: 16px;
+	}
+
+	.vacancy .descr_item
+	{
+		margin-bottom: 30px;
+	}
+
+	.vacancy .descr_item:last-child 
+	{
+		margin-bottom: 0px;
+	}
+
+	.vacancy .order_button
+	{
+		width: 100%;
+		max-width: 320px;
+		margin: 30px auto 0 auto;
+	}
+}
+

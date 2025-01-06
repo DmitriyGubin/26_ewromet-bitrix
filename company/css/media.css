@@ -1,0 +1,152 @@
+/*******************/
+
+@media screen and (max-width: 1300px)
+{
+	.docs .text_box
+	{
+		padding-right: 20px;
+	}
+
+	.docs .num_item
+	{
+		padding: 30px;
+	}
+}
+
+/**********************/
+
+@media screen and (max-width: 1300px)
+{
+	.director
+	{
+		padding: 30px;
+	}
+
+	.director .text_box
+	{
+		padding-left: 30px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.about .numbers
+	{
+		display: flex !important;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.about .delimeter
+	{
+		display: block !important;
+		height: 2px;
+		background: #0057FF;
+		margin-top: 30px;
+		opacity: 0.1;
+	}
+}
+
+/******************/
+
+@media screen and (max-width: 1000px)
+{
+	.docs .text_doc
+	{
+		flex-direction: column-reverse;
+	}
+
+	.docs .docs_box,
+	.docs .text_box
+	{
+		width: 100%;
+		padding: 0px;
+	}
+
+	.docs .docs_title, .docs .docs_title *
+	{
+		font-size: 22px;
+	}
+
+	.docs .sub_title
+	{
+		font-size: 17px;
+	}
+
+	.docs .docs_box
+	{
+		margin-bottom: 30px;
+	}
+
+	.docs .num_box 
+	{
+		grid-template-columns: repeat(1, 1fr);
+		gap: 10px;
+	}
+
+	.docs .num_title
+	{
+		font-size: 22px;
+		margin-bottom: 10px;
+	}
+
+	.docs .num_text
+	{
+		font-size: 16px;
+	}
+
+	.docs .num_box
+	{
+		margin-top: 30px;
+	}
+}
+
+/*************************/
+
+@media screen and (max-width: 1000px)
+{
+	.director
+	{
+		flex-direction: column;
+	}
+
+	.director .img_box
+	{
+		width: 200px;
+	}
+
+	.director
+	{
+		padding: 20px 30px;
+	}
+
+	.director .fio
+	{
+		/*white-space: nowrap;*/
+		margin-top: 15px;
+	}
+
+	.director .text_box
+	{
+		width: 100%;
+		padding: 0px;
+		margin-top: 30px;
+	}
+
+	.director .hello_box
+	{
+		font-size: 22px;
+	}
+
+	.director .all_text p
+	{
+		font-size: 16px;
+	}
+
+	.director .last
+	{
+		margin-top: 30px !important;
+		margin-bottom: 30px !important;
+	}
+}

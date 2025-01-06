@@ -1,0 +1,242 @@
+/* BUTTONS */
+
+.btn {
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.btn-color {
+	background-image: linear-gradient(to right, #FFA800 0%, #FF5C00 51%, #FFA800 100%);
+	background-size: 200% auto;
+	color: white;
+	border-radius: 5px;
+	transition: 0.5s;
+	box-shadow: 0px 2px 0px #AB3300;
+}
+.btn-color:hover {
+	color: white;
+  	background-position: right center;
+	text-decoration: none;
+}
+
+.btn-wrap {
+	background: #FFFFFF;
+	border: 1px solid #00416A;
+	color: #00416A;
+	border-radius: 5px;
+	transition: 0.5s;
+	box-shadow: 0px 2px 0px #00416A;
+}
+.btn-wrap:hover {
+	border: 1px solid #FF5C00;
+	color: #FF5C00;
+	box-shadow: 0px 2px 0px #FF5C00;
+	text-decoration: none;
+}
+
+.border-gradient {
+    border: 1px solid #27689E;
+    border-radius: 5px;
+    transition: 0.5s;
+    color: #27689E;
+}
+.border-gradient:hover {
+	border: 1px solid #FF5C00;
+	color: #FF5C00;
+	text-decoration: none;
+}
+.btn-catalog {
+	font-size: 12px;
+	padding: 10px 55px;
+}
+.btn-sm {
+	font-size: 12px;
+	padding: 10px 20px;
+}
+.btn-md {
+	font-size: 14px;
+	padding: 12px 30px;
+}
+.btn-lg {
+	font-size: 16px;
+	padding: 14px 30px;
+}
+.btn-250-center {
+	max-width: 250px;
+	margin: 0 auto;
+}
+
+/* LINK */
+
+.ewromet-link {
+    color: #000000;
+    text-decoration: none;
+}
+.ewromet-link:hover {
+    color: #FF5C00;
+}
+
+
+/* HEADER */
+
+.header-pricelist-link-wrap-1 {
+    display: flex;
+    align-items: center;
+}
+.header-pricelist-link-wrap-1 .header-pricelist-link-wrap-2 {
+    display: flex;
+    flex-direction: column;
+}
+.header-pricelist-link-wrap-1 .header-pricelist-link-wrap-2 a {
+    display: flex;
+    margin-bottom: 2px;
+    color: #000000;
+    text-decoration: none;
+}
+.header-pricelist-link-wrap-1 .header-pricelist-link-wrap-2 a:hover {
+    color: #FF5C00;
+}
+.header-pricelist-link-wrap-1 .header-pricelist-link-wrap-2 a img {
+    margin-right: 10px;
+}
+.header-pricelist-link-wrap-1 .header-pricelist-link-wrap-2 a span {
+    padding: 2px 0 1px;
+}
+
+/* PAGE */
+
+.ewromet_blue {
+	color: #00416A;
+}
+.ewromet-page p {
+	text-align: justify;
+}
+.ewromet_flex_wrap {
+	display: flex;
+	width: 100%;
+	padding: 50px 10px;
+}
+.pr-30 {
+	padding-right: 30px;
+}
+.pl-30 {
+	padding-left: 30px;
+}
+
+.ewromet_flex_col {
+	flex-direction: column;
+}
+.ewromet_flex50 {
+	display: flex;
+	width: 50%;
+	align-items: center;
+    	align-self: center;
+}
+.ewromet_flex33 {
+	display: flex;
+	width: 33.3%;
+	align-items: center;
+    	align-self: center;
+}
+.ewromet_flex66 {
+	display: flex;
+	width: 66.6%;
+	align-self: center;
+}
+.ewromet_flex20 {
+	display: flex;
+	width: 20%;
+	align-items: center;
+    	align-self: center;
+}
+.ewromet_flex80 {
+	display: flex;
+	width: 80%;
+	align-self: center;
+}
+.ewromet_page_table {
+	width: 100%;
+	border-collapse: collapse;
+	border: 0;
+	
+}
+.ewromet_page_table th, td {
+  text-align: left;
+}
+.ewromet_padding0-10 {
+	padding: 0 10px;
+}
+
+.ewromet-section-item-name-wrapper {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #1B1E25;
+    text-decoration: none;
+    -webkit-transition-duration: 350ms;
+    -moz-transition-duration: 350ms;
+    -ms-transition-duration: 350ms;
+    -o-transition-duration: 350ms;
+    transition-duration: 350ms;
+    -webkit-transition-property: color;
+    -moz-transition-property: color;
+    -ms-transition-property: color;
+    -o-transition-property: color;
+    transition-property: color;
+}
+
+p.ewromet-inline-img-3, p.ewromet-inline-img-4 {
+    display: flex;
+}
+p.ewromet-inline-img-4 img {
+    width: 25%;
+    height: auto;
+}
+p.ewromet-inline-img-3 img {
+    width: 33.3%;
+    height: auto;
+}
+
+.ewromet-custom-title {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #00416A;
+}
+.intec-template .intec-template-part.intec-template-part-title, .intec-template .widget .widget-header .widget-title.widget-has-subtitle {
+    margin-bottom: 20px;
+}
+.intec-template .intec-template-part.intec-template-part-title, .intec-template .widget .widget-header .widget-title.widget-subtitle {
+    max-width: 60%;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+	.ewromet_flex_wrap {
+		flex-direction: column-reverse;
+		padding: 30px 10px;
+	}
+	.pr-30 {
+		padding-right: 10px;
+	}
+	.pl-30 {
+		padding-left: 10px;
+	}
+	.ewromet_flex80, .ewromet_flex66, .ewromet_flex50, .ewromet_flex33, .ewromet_flex20  {
+		width: 100%;
+	}
+	.ewromet_page_table {
+		margin: 20px 0;
+	}
+	.ewromet_page_table th, td {
+		padding: 0 16px;
+	}
+	.intec-template .intec-template-part.intec-template-part-title, .intec-template .widget .widget-header .widget-title.widget-subtitle {
+	    max-width: 100%;
+	    font-size: 14px;
+	    margin-bottom: 20px;
+	}
+}

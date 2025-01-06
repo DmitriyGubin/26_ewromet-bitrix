@@ -1,0 +1,333 @@
+@media screen and (max-width: 1350px)
+{
+	.my_orders .right_col 
+	{
+		width: 85%;
+	}
+
+	.my_orders .left_col
+	{
+		width: 15%;
+	}
+
+	.my_orders.univ_table .one_col 
+	{
+		width: 50%;
+	}
+
+	.univ_table .three_col
+	{
+		width: 17%;
+	}
+
+	.my_orders.univ_table .four_col 
+	{
+		width: 19%;
+	}
+
+	.my_orders .plus_col {
+		width: 23%;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.my_orders .plus_min_box
+	{
+		width: 38px;
+	}
+
+	.count_butt 
+	{
+		width: 100%;
+	}
+
+	.my_orders .status_box
+	{
+		width: calc(100% - 38px);
+		padding-left: 10px;
+	}
+
+	.my_orders.univ_table .table_item
+	{
+		border: none !important;
+	}
+
+	.my_orders .rule_item
+	{
+		font-size: 16px;
+	}
+
+	.my_orders .hide_box
+	{
+		margin-bottom: 0px;
+	}
+
+	.my_orders .result .one_col
+	{
+		font-size: 16px;
+		width: 50% !important;
+		padding-right: 10px !important;
+		order: 0;
+		margin: 0px !important;
+	}
+
+	.my_orders.univ_table .result .four_col.price
+	{
+		order: 1;
+	}
+
+	.my_orders.univ_table .result .five_col.rule
+	{
+		order: 2;
+	}
+
+	.my_orders .plus_col
+	{
+		order: 3;
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	.my_orders .table_box.two
+	{
+		margin-top: 25px;
+	}
+
+	.my_orders .phone_addr
+	{
+		line-height: 1.5;
+	}
+
+	.my_orders .table_box.head
+	{
+		flex-direction: column-reverse;
+	}
+
+	.my_orders .left_col
+	{
+		width: 100%;
+	}
+
+	.univ_table .table_item
+	{
+		padding: 0px;
+	}
+
+	.my_orders .mobile_delimeter
+	{
+		display: block !important;
+		width: calc(100% + 40px);
+		transform: translateX(-20px);
+		height: 2px;
+		background: #E7EAF4;
+		margin: 15px 0;
+	}
+
+	.my_orders .right_col
+	{
+		width: 100%;
+	}
+
+	.my_orders .flex_box
+	{
+		flex-direction: column-reverse;
+	}
+
+	.my_orders .rule_item:first-child
+	{
+		margin-left: 0px;
+	}
+
+	.my_orders .hide_for_mob
+	{
+		display: none;
+	}
+
+	.my_orders .show_for_mob
+	{
+		display: block !important;
+	} 
+
+	.my_orders .mob_title
+	{
+		font-size: 16px;
+		color: #808DA5;
+		margin: 20px 0 10px 0;
+	}
+
+	.my_orders .delimeter
+	{
+		margin: 20px 0;
+	}
+
+	.my_orders .table_box.two
+	{
+		flex-direction: column;
+	}
+
+	.my_orders .mark_img
+	{
+		display: block !important;
+		margin-left: 10px;
+		width: 21px;
+	}
+
+	.my_orders.univ_table .mark *
+	{
+		color: #2F2FA1;
+		font-size: 15px;
+	}
+
+	.my_orders .result
+	{
+		padding-top: 5px;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+
+	.univ_table .count_prod
+	{
+		font-size: 16px;
+	}
+
+	.my_orders.univ_table .four_col
+	{
+		font-size: 16px;
+	}
+
+	.my_orders .left_col,
+	{
+		width: 100%;
+		padding: 0px;
+	}
+
+	.my_orders .right_col.prods
+	{
+		overflow: visible;
+	}
+
+	.my_orders .prods_table {
+		min-width: 1px;
+	}
+
+	.univ_table .table_head,
+	.univ_table .two_col
+	{
+		display: none;
+	}
+
+	.univ_table .prod_box
+	{
+		flex-wrap: wrap;
+	}
+
+	.my_orders.univ_table .one_col
+	{
+		width: 100%;
+		padding: 0px;
+		margin-bottom: 10px;
+		line-height: 1.5;
+	}
+
+	.univ_table .mark
+	{
+		width: 50%;
+		display: flex;
+		align-items: center;
+	}
+
+	.my_orders.univ_table .four_col.price
+	{
+		width: 40% !important;
+		text-align: right;
+	}
+
+	.my_orders.univ_table .five_col.rule
+	{
+		width: 10% !important;
+		padding: 0px;
+	}
+
+	.my_orders .delimeter 
+	{
+		width: calc(100% + 40px);
+		transform: translateX(-20px);
+	}
+
+	.my_orders .order_price
+	{
+		font-size: 22px;
+	}
+
+	.my_orders .price_box
+	{
+		text-align: left;
+		padding-left: 50px;
+	}
+
+	.my_orders .company
+	{
+		font-size: 16px;
+	}
+
+	.my_orders .company
+	{
+		margin: 20px 0 20px 0;
+	}
+
+	.my_orders .status
+	{
+		font-size: 16px;
+		line-height: 1.5;
+	}
+
+	.my_orders .order_name
+	{
+		font-size: 17px;
+		margin-bottom: 10px;
+	}
+
+	.my_orders .title_box
+	{
+		flex-direction: column;
+	}
+
+	.my_orders .orders_item
+	{
+		padding: 20px 20px 30px 20px;
+	}
+
+	.my_orders .cab_title
+	{
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.my_orders .count
+	{
+		display: none;
+	}
+
+	.my_orders .filter_box
+	{
+		display: none;
+	}
+
+	.my_orders .title_line 
+	{
+		margin-bottom: 20px;
+	}
+
+	.univ_table .mark span
+	{
+		width: calc(100% - 21px - 10px);
+	}
+
+	.univ_table .one_col.name
+	{
+		font-size: 16px;
+	}
+}

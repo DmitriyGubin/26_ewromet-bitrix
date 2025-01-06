@@ -1,0 +1,167 @@
+.cab_menu
+{
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 20px !important;
+  margin-bottom: 40px !important;
+  gap: 20px;
+}
+
+.cab_menu .menu_item 
+{
+    border: 1px solid #E7EAF4;
+    border-radius: 16px;
+    padding: 15px 20px 20px 25px;
+}
+
+.cab_menu .menu_icon
+{
+  width: 24px;
+  margin: 0 0 5px auto;
+  display: block;
+}
+
+.cab_menu .menu_title
+{
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.cab_menu .menu_item.active
+{
+  border: 1px solid #2F2FA0;
+}
+
+.cab_menu .menu_item.active .menu_title
+{
+  color: #2F2FA0;
+}
+
+.cab_menu .menu_item.active .menu_icon path
+{
+  fill: #2F2FA0;
+}
+
+/*************************/
+
+.my_data .error_mess 
+{
+  font-size: 15px;
+  color: #FD6332;
+}
+
+.my_data .my_data_form
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.my_data .form_box
+{
+  width: calc(50% - 10px);
+  border-radius: 40px;
+  padding: 50px 50px 40px 50px;
+}
+
+.my_data .form_title
+{
+  font-size: 22px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.my_data .form_title.two
+{
+  margin-top: 50px;
+}
+
+.my_data .sub_title
+{
+  color: #63718C;
+  font-size: 15px;
+  margin: 30px 0 20px 0;
+}
+
+.my_data .univ_form_box
+{
+  margin-bottom: 25px;
+}
+
+.my_data #save_my_data
+{
+  background: #FFFFFF;
+  margin: 40px 0 0 0;
+}
+
+.my_data .toggle_box
+{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.my_data .toggle_descr
+{
+  width: calc(100% - 50px);
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.my_data
+{
+  
+}
+
+.my_data
+{
+  
+}
+
+.my_data
+{
+  
+}
+
+.my_data
+{
+  
+}
+
+.my_data
+{
+  
+}
+
+.my_data
+{
+
+}
+
+.my_data
+{
+  
+}
+
+.my_data
+{
+  
+}
+
+.my_data
+{
+  
+}
+
+.my_data
+{
+  
+}
+
+.my_data
+{
+  
+}
+
+.my_data
+{
+  
+}

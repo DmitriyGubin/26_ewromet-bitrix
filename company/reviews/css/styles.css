@@ -1,0 +1,199 @@
+.reviews_form
+{
+  border-radius: 50px;
+  background: #F6F9FF;
+  padding: 50px 60px;
+  margin-bottom: 30px;
+  transition: none !important;
+}
+
+.order_button.write
+{
+  cursor: pointer;
+}
+
+.reviews_form .form_title
+{
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+/*****форма******/
+
+.reviews_form .form_grid 
+{
+    grid-template-columns: 1.2fr 4fr;
+    gap: 20px;
+}
+
+.reviews_form .grid_item 
+{
+    position: relative;
+}
+
+.reviews_form .grid_item input 
+{
+    height: 50px;
+}
+
+.reviews_form .form_field 
+{
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 2px rgb(150, 161, 189, 0.2);
+    font-size: 16px;
+    color: #808DA5;
+    padding: 17px 50px;
+    width: 100%;
+    display: block;
+}
+
+.reviews_form .form_field::placeholder
+{
+  font-size: 16px;
+  color: #808DA5;
+}
+
+.reviews_form .field_img 
+{
+    position: absolute;
+    left: 15px;
+    top: 12px;
+}
+
+.reviews_form .grid_item.textarea 
+{
+    grid-row: 1 / 5;
+    grid-column: 2 / 3;
+}
+
+.reviews_form textarea 
+{
+    height: 100%;
+}
+
+.reviews_form .resume_title
+{
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.reviews_form .last_line
+{
+  margin-top: 40px;
+}
+
+.reviews_form .grid_item.stars
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.reviews_form .rew_title
+{
+  font-size: 16px;
+}
+
+.reviews_form .star_box
+{
+  display: flex;
+}
+
+.reviews_form .form_star
+{
+  margin: 0 7px;
+  width: calc(25% - 14px);
+  cursor: pointer;
+}
+
+.reviews_form .form_star.active path
+{
+  fill: #EBAA03 !important;
+}
+
+.reviews_form .form_star.first path
+{
+  fill: #EBAA03 !important;
+}
+
+.reviews_form .last_line
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.reviews_form .order_button
+{
+  width: 260px;
+}
+
+.reviews_form .text_box
+{
+  width: calc(100% - 260px);
+  display: flex;
+}
+
+.reviews_form .col
+{
+  width: 50%;
+  padding-right: 3%;
+  font-size: 15px;
+  color: #63718C;
+  line-height: 1.5;
+}
+
+.reviews_form .col a
+{
+  color: #434D60;
+}
+
+.reviews_form .negative
+{
+  display: flex;
+  align-items: flex-start;
+}
+
+.reviews_form .negative svg
+{
+  width: 24px;
+}
+
+.reviews_form .neg_text
+{
+  width: calc(100% - 24px);
+  padding-left: 15px;
+  font-size: 15px;
+  color: #63718C;
+  line-height: 1.5;
+}
+
+.reviews_form
+{
+  
+}
+
+.reviews_form
+{
+  
+}
+
+.reviews_form
+{
+  
+}
+
+.reviews_form
+{
+  
+}
+
+.reviews_form
+{
+  
+}
+
+/*****форма******/
+

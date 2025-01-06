@@ -1,0 +1,1083 @@
+.ewromet-table.gibka
+{
+  min-width: 1000px;
+  width: 100%;
+}
+
+.gass_table
+{
+  min-width: 760px;
+  width: 100%;
+}
+
+table.raskroy
+{
+  min-width: 1400px;
+  width: 100%;
+}
+
+.gass_table td, 
+.gass_table th
+{
+  border: 1px solid black !important;
+}
+
+.table_wrap
+{
+  overflow: auto;
+}
+
+.ewromet-custom-title {
+  font-size: 28px !important;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #00416A;
+  margin: 30px 0;
+}
+
+.ewromet-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  /*border: 1px solid #ddd;*/
+}
+
+.metal_serv .add_serv
+{
+  background: white !important;
+  border: 1px solid #D7E1F5;
+}
+
+.serv_top .text_slider
+{
+  background: #F6F9FF;
+  border-radius: 40px;
+  display: flex;
+}
+
+.serv_top .serv_title
+{
+  font-size: 46px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.serv_top .about_servv
+{
+  color: #292323;
+  font-size: 17px;
+  margin: 30px 0 40px 0;
+  line-height: 1.5;
+}
+
+.serv_top .button_box
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.serv_top .order_button.order
+{
+  margin-right: 20px;
+}
+
+.serv_top .order_button.gallery div
+{
+  color: #FFFFFF;
+}
+
+.serv_top .order_button.gallery
+{
+  background: #2F2FA1;
+  border: none; 
+}
+
+.serv_top .order_button
+{
+  margin-left: 0px;
+}
+
+.serv_top .img_box
+{
+  height: 450px !important;
+  border-radius: 40px 40px 0 0;
+}
+
+.serv_top .slide_img
+{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: 100% 0%;
+   border-radius: 40px 40px 0 0;
+}
+
+.serv_top .slider_box
+{
+  width: 42%;
+  padding-bottom: 20px;
+}
+
+.serv_top .text_box
+{
+  width: 58%;
+  padding: 5% 20px 5% 6%;
+}
+
+
+
+
+
+
+
+
+
+.serv_top .slick-dots li,
+.serv_top .slick-dots li button,
+.serv_top .slick-dots li button:before
+{
+  width: 8px;
+  height: 8px;
+}
+
+.serv_top .slick-dots li
+{
+  margin: 0 10px;
+  background: #ACBDDF;
+  border-radius: 8px;
+}
+
+.serv_top .slick-dots li button:before
+{
+  content: none;
+}
+
+.serv_top .slick-dots li.slick-active
+{
+  background: #2F2FA1 !important;
+}
+
+.serv_top .slick-dots
+{
+  bottom: -20px;
+}
+
+/*****************************/
+
+.about_serv
+{
+  display: flex;
+  align-items: flex-start;
+}
+
+.about_serv .text_box
+{
+  width: 50%;
+  padding-left: 5%;
+}
+
+.about_serv .right_img
+{
+  width: 50%;
+  border-radius: 40px;
+}
+
+.about_serv .sub_title
+{
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.about_serv .all_text *,
+.about_serv .all_text
+{
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+/*************************/
+
+.equipm
+{
+  display: flex;
+  justify-content: space-around !important;
+}
+
+.equipm .eq_box
+{
+  width: calc(50% - 40px);
+}
+
+/*.equipm .eq_box:last-child
+{
+  width: 100%;
+}*/
+
+.equipm .img_box
+{
+  height: 250px;
+}
+
+.equipm .eq_img
+{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: 50% 50% !important;
+}
+
+.equipm .eq_name
+{
+  margin: 40px 0 20px 0;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.equipm .eq_about
+{
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+/************************/
+
+.about_items .all_text *
+{
+  font-size: 17px;
+  line-height: 1.4;
+}
+
+.about_items .sub_title
+{
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+/***********************************/
+
+.serv_price .title_line
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.serv_price .color_title,
+.serv_price .color_title span
+{
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.serv_price .doc_date
+{
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.serv_price .doc_box
+{
+  display: flex;
+  align-items: center;
+}
+
+.serv_price .doc_name
+{
+  font-size: 16px;
+  margin-left: 10px;
+  color: #2F2FA1;
+  font-weight: 500;
+}
+
+.serv_price .dat
+{
+  color: #51607E;
+  font-size: 16px;
+  margin-left: 30px;
+}
+
+.serv_price .var_box
+{
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.serv_price .var_item
+{
+  border: 1px solid #E7EAF4;
+  border-radius: 16px;
+  display: flex !important;
+  cursor: pointer;
+}
+
+.serv_price .item_name
+{
+  font-weight: 600;
+  font-size: 17px;
+  width: 65%;
+  padding: 50px 10px 25px 25px;
+}
+
+.serv_price .var_box .img_box
+{
+  width: 35%;
+  min-height: 80px;
+  border-radius: 0 16px 0 0;
+  z-index: -1;;
+}
+
+.serv_price .var_img
+{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: 100% 0%;
+  border-radius: 0 16px 0 0;
+}
+
+.serv_price .var_item.active
+{
+  border: 1px solid #2F2FA1;
+}
+
+.serv_price .var_item.active .item_name
+{
+  color: #2F2FA0;
+}
+
+.serv_price .tables_box
+{
+  margin-top: 40px;
+  /*overflow: auto;*/
+}
+
+.serv_price .table_item
+{
+  width: calc(50% - 20px);
+}
+
+.serv_price .head
+{
+  padding-bottom: 10px;
+  border-bottom: 1px solid #E7EAF4;
+  display: flex;
+}
+
+.serv_price .one_col
+{
+  width: 28%;
+}
+
+.serv_price .two_col
+{
+   width: 36%;
+}
+
+.serv_price .tree_col
+{
+   width: 36%;
+}
+
+.serv_price .table_title
+{
+  color: #51607E;
+  font-size: 14px;
+}
+
+.serv_price .table_body
+{
+  display: flex;
+  align-items: flex-start;
+}
+
+.serv_price .rows
+{
+  width: calc(100% - 28%);
+}
+
+.serv_price .row.color
+{
+  background: #F7FAFF;
+  border-radius: 14px;
+}
+
+.serv_price .row
+{
+  padding: 20px 30px;
+  display: flex;
+}
+
+.serv_price .cat_name
+{
+  font-weight: 600;
+  font-size: 22px;
+  margin-top: 18px;
+}
+
+.serv_price .width
+{
+  font-size: 17px;
+  width: 50%;
+}
+
+.serv_price .price
+{
+  font-size: 18px;
+  font-weight: 600;
+  width: 50%;
+  padding-left: 20px;
+}
+
+.serv_price .two_col.table_title
+{
+  padding-left: 30px;
+}
+
+.serv_price .tree_col.table_title
+{
+  padding-left: 20px;
+}
+
+.serv_price .tables_wrap
+{
+  width: 100%;
+  /*min-width: 1050px;*/
+  display: flex;
+  justify-content: space-between;
+}
+
+.serv_price .about_cat
+{
+  margin-top: 70px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.serv_price .about_item
+{
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.serv_price .about_item:last-child
+{
+  margin-bottom: 0px;
+}
+
+.serv_price .item_title
+{
+  width: 150px;
+  color: #51607E;
+  font-size: 17px;
+}
+
+.serv_price .item_text
+{
+  width: calc(100% - 150px);
+  padding-left: 50px;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+/**************************/
+
+.why_box.top_marg
+{
+  margin-top: 200px !important;
+}
+
+.why_box .tab_item
+{
+  box-shadow: 0px 0px 20px 2px #f2f2f2;
+  padding: 25px 35px;
+  border-radius: 24px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.why_box .plus_min
+{
+  width: 40px;
+}
+
+.why_box .text_box
+{
+  width: calc(100% - 40px);
+  padding-left: 20px;
+}
+
+.why_box .tab_title
+{
+  font-size: 17px;
+  font-weight: 600;
+  margin: 10px 0 15px 0;
+}
+
+.why_box .tab_text
+{
+  width: 100%;
+  max-width: 1100px;
+  font-size: 17px;
+  line-height: 1.5;
+  transition: none !important;
+}
+
+.why_box .color_title,
+.why_box .color_title *
+{
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+/**таблицы******/
+.serv_price .one_tab_col
+{
+  width: 33.3%;
+}
+
+.serv_price .four_tab_col
+{
+  width: 25%;
+}
+
+.serv_price .price_table
+{
+  width: 100%;
+}
+
+.serv_price .price_table th 
+{
+  /*border: 1px solid black;*/
+  text-align: left;
+  color: #51607E;
+  font-size: 14px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #E7EAF4;
+  padding-left: 20px;
+}
+
+.serv_price .price_table td
+{
+  padding: 20px 0 20px 20px;
+  font-size: 17px;
+}
+
+.serv_price .price_table th:first-child
+{
+  padding-left: 0px;
+}
+
+.serv_price .weight
+{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.serv_price .material
+{
+  vertical-align: top;
+  background: white;
+  font-size: 22px !important;
+  padding-left: 0px !important;
+}
+
+.serv_price .price_table tbody tr:nth-child(even)
+{
+  background: #F7FAFF;
+}
+
+.serv_price .price_table .first
+{
+  border-radius: 14px 0 0 14px;
+}
+
+.serv_price .price_table .last
+{
+  border-radius: 0 14px 14px 0;
+}
+
+@media screen and (max-width: 1365px)
+{
+  .serv_price .table_item.two .price_table th
+  {
+    border: none;
+  }
+
+  .serv_price .tables_wrap
+  {
+    flex-direction: column;
+  }
+
+  .serv_price .table_item
+  {
+    width: 100%;
+  }
+
+  .serv_price .table_item.two thead
+  {
+    /*display: none;*/
+    opacity: 0;
+    height: 1px;
+    overflow: hidden;
+  }
+
+  .serv_price .table_item.two thead th
+  {
+    padding: 0px;
+    font-size: 1px;
+  }
+
+  .serv_price .table_item.two .material
+  {
+    opacity: 0;
+  }
+}
+
+
+@media screen and (max-width: 1400px)
+{
+  .serv_top .serv_title
+  {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1300px)
+{
+  .serv_top .text_box 
+  {
+    padding: 40px;
+  }
+}
+
+
+/**********************/
+
+@media screen and (max-width: 1300px)
+{
+  .about_serv .text_box
+  {
+    padding-left: 10px;
+  }
+}
+
+/**********************/
+
+@media screen and (max-width: 1300px)
+{
+  .equipm .eq_box
+  {
+    width: calc(50% - 10px);
+  }
+}
+
+/********************/
+
+@media screen and (max-width: 1300px)
+{
+  .serv_price .color_title,
+  .serv_price .color_title span
+  {
+    font-size: 26px;
+  }
+
+  .serv_price .item_name 
+  {
+    font-weight: 600;
+    font-size: 17px;
+    width: 65%;
+    padding: 50px 10px 15px 15px;
+  }
+
+  .serv_price .tables_box
+  {
+    font-size: 20px;
+  }
+
+  .serv_price .two_col.table_title 
+  {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px)
+{
+  .gib_img
+  {
+    width: 100% !important;
+    max-width: 500px;
+    height: auto !important;
+    display: block !important;
+    margin: 10px auto !important;
+    float: none !important;
+  }
+
+  .metal_serv .add_title 
+  {
+    max-width: 200px !important;
+  }
+
+  .gibkaa
+  {
+    min-width: 1140px;
+    width: 100%;
+  }
+
+  .table_wrapp
+  {
+    overflow: auto;
+  }
+}
+
+@media screen and (max-width: 1000px)
+{
+  .serv_price .table_item.two thead
+  {
+    display: none;
+  }
+
+  .why_box.top_marg 
+  {
+    margin-top: 50px !important;
+  }
+
+  .about_items .all_text img
+  {
+    width: 100% !important;
+    height: auto !important;
+    display: block;
+    margin: 10px 0 !important;
+  }
+
+  .about_serv .sub_title
+  {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .about_serv .all_text *, .about_serv .all_text
+  {
+    font-size: 16px;
+  }
+
+  .about_serv
+  {
+    flex-direction: column;
+  }
+
+  .about_serv .text_box
+  {
+    width: 100%;
+    padding: 0px;
+    margin-top: 20px;
+  }
+
+  .about_serv .right_img 
+  {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .serv_top .order_button.order
+  {
+    width: 245px;
+    margin: 0 0 15px 0;
+  }
+
+  .serv_top .order_button.gallery
+  {
+    width: 215px;
+  }
+
+  .serv_top .about_servv 
+  {
+    margin: 10px 0 30px 0;
+  }
+
+  .serv_top .text_box
+  {
+    padding: 10px 30px 40px 30px;
+  }
+
+  .serv_top .slider_box
+  {
+    padding: 0px;
+  }
+
+  .serv_top .text_slider
+  {
+    flex-direction: column-reverse;
+  }
+
+  .serv_top .text_box,
+  .serv_top .slider_box
+  {
+    width: 100%;
+  }
+
+  .serv_top .img_box
+  {
+    height: 280px !important;
+  }
+
+  .serv_top .serv_title
+  {
+    font-size: 20px;
+  }
+
+  .serv_top .about_servv
+  {
+    font-size: 16px;
+  }
+
+  .serv_top .button_box
+  {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 750px)
+{
+  .about_items .all_text *,
+  .about_items .all_text
+  {
+    font-size: 16px;
+  }
+
+  .about_items .sub_title
+  {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .metal_serv .title
+  {
+    margin: 40px 0 10px 0 !important;
+  }
+
+  .metal_serv .add_serv
+  {
+    width: 268px;
+  }
+
+  .metal_serv .add_title
+  {
+    font-size: 17px;
+  }
+
+  .metal_serv .add_serv_box .slick-track
+  {
+    display: flex;
+  }
+
+  .metal_serv .add_title 
+  {
+    margin: 10px 35px 20px 35px;
+  }
+
+  .metal_serv .add_serv
+  {
+    margin-right: 20px;
+  }
+
+  .metal_serv .add_serv_box
+  {
+    width: calc(100% + 20px);
+  }
+}
+
+/*************************/
+
+@media screen and (max-width: 1400px)
+{
+  .serv_price .var_box 
+  {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 1000px)
+{
+  .serv_price .color_title, .serv_price .color_title span
+  {
+    font-size: 22px;
+  }
+
+  .serv_price .doc_date
+  {
+    display: none;
+  }
+
+  .serv_price .var_item
+  {
+    width: 220px;
+    margin-right: 20px;
+  }
+
+  .serv_price .slick-track
+  {
+    display: flex;
+  }
+
+  .serv_price .item_name 
+  {
+    padding: 30px 10px 15px 15px;
+  }
+
+  .serv_price .var_box
+  {
+    width: calc(100% + 20px);
+  }
+
+  .serv_price .material
+  {
+    display: none;
+  }
+
+  .serv_price thead tr th:first-child
+  {
+    display: none;
+  }
+
+  .serv_price .one_tab_col
+  {
+    width: 50%;
+  }
+
+  .serv_price .four_tab_col 
+  {
+    width: 33.3%;
+  }
+
+  .serv_price .price_table th
+  {
+    padding-left: 0px;
+    font-size: 12px !important;
+  }
+
+  .serv_price .price_table td
+  {
+    font-size: 12px !important;
+  }
+
+  .serv_price .price_table th:last-child
+  {
+    text-align: right;
+  }
+
+  /*.serv_price .price_table td
+  {
+    padding-left: 0px;
+  }*/
+
+  .serv_price .price_table td 
+  {
+    padding: 10px 0 10px 10px;
+  }
+
+  .serv_price tbody tr td:last-child
+  {
+    text-align: right;
+    padding-right: 10px;
+  }
+
+  .serv_price .tables_box
+  {
+    margin-top: 25px;
+  }
+
+  .serv_price .price_table td
+  {
+    font-size: 16px;
+  }
+
+  .serv_price .about_cat
+  {
+    margin-top: 40px;
+  }
+
+  .serv_price .item_text
+  {
+    font-size: 16px;
+  }
+
+  .serv_price .about_item
+  {
+    flex-direction: column;
+  }
+
+  .serv_price .item_title,
+  .serv_price .item_text
+  {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .serv_price .item_title
+  {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 1000px)
+{
+  .why_box .tab_item 
+  {
+    padding: 15px 20px;
+  }
+
+  .why_box .text_box
+  {
+    padding-left: 10px;
+  }
+
+  .why_box .tab_title
+  {
+    margin-top: 6px;
+  }
+
+  .why_box .tab_text
+  {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .why_box .color_title, 
+  .why_box .color_title *
+  {
+    font-size: 22px;
+  }
+
+  .why_box .color_title
+  {
+    margin-bottom: 20px;
+  }
+
+  .help_form #help_formm,
+  .metal_serv
+  {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1300px)
+{
+  .ewromet-table td,
+  table td,
+  table td *
+  {
+    font-size: 12px !important;
+  }
+}

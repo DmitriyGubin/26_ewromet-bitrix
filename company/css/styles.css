@@ -1,0 +1,191 @@
+/*****************************/
+
+.docs .docs_title,
+.docs .docs_title *
+{
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.docs .text_doc
+{
+  display: flex;
+  align-items: flex-start;
+}
+
+.docs .text_box
+{
+  width: 50%;
+  padding-right: 100px;
+}
+
+.docs .sub_title,
+.docs .all_text,
+.docs .sub_title *
+{
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.docs .sub_title
+{
+  margin: 20px 0 60px 0;
+}
+
+.docs .docs_box
+{
+  width: 50%;
+}
+
+.docs .doc_img
+{
+  width: 100%;
+}
+
+.docs .all_text
+{
+  margin-top: 20px;
+}
+
+.docs .num_box
+{
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 60px;
+}
+
+.docs .num_item
+{
+  border-radius: 40px;
+  padding: 50px 60px;
+  box-shadow: 0px 0px 20px 2px #f2f2f2;
+}
+
+.docs .num_title
+{
+  color: #2F2FA1;
+  margin-bottom: 20px;
+  color: #2F2FA1;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.docs .num_text
+{
+  font-size: 17px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 340px;
+}
+
+/**********************/
+
+.director
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #F6F9FF;
+  border-radius: 40px;
+  padding: 60px;
+}
+
+.director .img_box
+{
+  width: 16%;
+}
+
+.director .text_box
+{
+  width: 84%;
+  padding-left: 60px;
+}
+
+.director .photo_box
+{
+  width: 100%;
+  padding-top: 100%;
+  /*background: blue;*/
+  border-radius: 50% 50% 10px 50%;
+  position: relative;
+}
+
+.director .photo
+{
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ border-radius: 50% 50% 10px 50%;
+}
+
+.director .fio
+{
+  margin-top: 25px;
+  color: #808DA5;
+  font-size: 17px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.director .hello_box
+{
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.director .all_text p
+{
+  font-size: 17px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.director .all_text p:last-child
+{
+  margin-top: 40px;
+}
+
+.director .mail
+{
+  display: flex;
+  align-items: center;
+}
+
+.director .mail_text
+{
+  color: #2F2FA1;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.director
+{
+  
+}
+
+.director
+{
+
+}
+
+.director
+{
+  
+}
+
+.director
+{
+  
+}
+
+.director
+{
+  
+}
+
+.director
+{
+  
+}

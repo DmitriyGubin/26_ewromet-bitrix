@@ -1,0 +1,368 @@
+.map_box .ymaps-2-1-79-map-copyrights-promo
+{
+  display: none;
+}
+
+.map_box #y_map > ymaps 
+{
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.map_box #y_map
+{
+  height: 500px;
+  /*background: gray;*/
+  border-radius: 50px;
+  transition: none !important;
+}
+
+.map_box #y_map *
+{
+  transition: none !important;
+}
+
+.map_box .cont_line
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.map_box .cont_title
+{
+  color: #808DA5;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.map_box .cont_text
+{ 
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.map_box .contact_item
+{
+  margin: 10px;
+}
+
+/********************************/
+
+.employees .tab_item
+{
+  padding: 35px 50px;
+  box-shadow: 0px 0px 20px 2px #f2f2f2;
+  border-radius: 24px;
+}
+
+.employees .hide_box
+{
+  transition: none !important;
+}
+
+.employees .sect
+{
+  display: flex;
+  align-items: flex-start;
+}
+
+.employees .title_text
+{
+  width: calc(100% - 39px);
+  padding-left: 20px;
+}
+
+.employees .tab_title
+{
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.employees .tab_prev
+{
+  font-size: 17px;
+}
+
+.employees .butt_box
+{
+  width: 39px;
+  transform: translateY(-5px);
+}
+
+.employees .delimeter
+{
+  height: 1px;
+  background: #F0F4FF;
+  margin: 35px 0;
+  transform: translateX(-50px);
+  width: calc(100% + 100px);
+}
+
+.employees .grid_box
+{
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 50px;
+  row-gap:  40px;
+  margin-bottom: 20px;
+}
+
+.employees .perse_name
+{
+  color: #2F2FA1;
+  font-weight: 600;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+.employees .cont_item
+{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.employees .cont_item svg
+{
+  width: 24px;
+}
+
+.employees .cont_text
+{
+  width: calc(100% - 24px);
+}
+
+.employees .cont_item:last-child
+{
+  margin-bottom: 0px;
+}
+
+.employees .cont_text
+{
+  padding-left: 10px;
+  font-size: 16px;
+  color: #1D1D1D;
+}
+
+.employees .cont_text.phone
+{
+  font-weight: 600;
+}
+
+.employees .tab_item
+{
+  margin-bottom: 20px;
+}
+
+/*****************************/
+
+.requisites .req_title
+{
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.requisites .req_box
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.requisites .req_item
+{
+  margin: 0 10px 30px 10px;
+}
+
+.requisites .req_item *,
+.requisites .req_item
+{
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.requisites .prop_name
+{
+  color: #808DA5;
+}
+
+.requisites .prop_item
+{
+  margin-bottom: 15px;
+}
+
+.requisites .prop_item:last-child
+{
+  margin-bottom: 0px;
+}
+
+.requisites .icon_box
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 0 35px 0;
+}
+
+.requisites .ref
+{
+  margin: 15px 0;
+}
+
+.requisites .ref a
+{
+  color: #2F2FA1;
+  font-weight: 600;
+}
+
+/*******************/
+
+.call_order
+{
+  background: #F6F9FF;
+  border-radius: 50px;
+  padding: 45px 65px 65px 65px;
+}
+
+.call_order .success
+{
+  padding-left: 0px;
+}
+
+.call_order #call_order_form
+{
+  grid-template-columns: 1fr 1fr 1.5fr 198px;
+  gap: 20px;
+}
+
+.call_order .grid_item 
+{
+  position: relative;
+}
+
+.call_order .form_field 
+{
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 2px rgb(150, 161, 189, 0.2);
+  font-size: 16px;
+  color: #808DA5;
+  padding: 17px 50px;
+  width: 100%;
+  display: block;
+  height: 50px;
+}
+
+.call_order .form_field::placeholder
+{
+  font-size: 16px;
+  color: #808DA5;
+}
+
+.call_order .field_img 
+{
+  position: absolute;
+  left: 15px;
+  top: 12px;
+}
+
+.call_order .form_title_line
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+  flex-wrap: wrap;
+}
+
+.call_order .form_title
+{
+  font-size: 24px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.call_order .polite
+{
+  color: #63718C;
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.call_order .polite a
+{
+  color: #434D60;
+}
+
+.call_order
+{
+
+}
+
+.call_order
+{
+
+}
+
+.call_order
+{
+
+}
+
+.call_order
+{
+
+}
+
+.call_order
+{
+
+}
+
+.call_order
+{
+
+}
+
+.call_order
+{
+
+}
+
+.call_order
+{
+
+}
+
+.call_order
+{
+
+}
+
+.call_order
+{
+
+}
+
+.call_order
+{
+
+}
+
+.call_order
+{
+
+}
+
+.call_order
+{
+
+}
+
+.call_order
+{
+
+}

@@ -1,0 +1,301 @@
+.my_orders .title_line
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.my_orders .title_count
+{
+  display: flex;
+  align-items: flex-start;
+}
+
+.my_orders .cab_title
+{
+  margin-bottom: 0px;
+}
+
+.my_orders .count
+{
+  font-size: 16px;
+  margin-left: 10px;
+  color: #819399;
+}
+
+.my_orders .filter_box
+{
+  display: flex;
+  align-items: center;
+}
+
+.my_orders .remark
+{
+  font-size: 14px;
+  color: #51607E;
+}
+
+.my_orders .tab_item
+{
+  font-size: 20px;
+  margin-left: 30px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.my_orders .tab_item.active
+{
+  color: #2F2FA0;
+}
+
+.my_orders .title_box
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.my_orders.univ_table .mark,
+.my_orders.univ_table .mark *
+{
+  font-size: 17px;
+}
+
+.my_orders .plus_title
+{ 
+  display: flex;
+  align-items: flex-start;
+}
+
+.my_orders .status_box
+{
+  padding-left: 20px;
+}
+
+.my_orders .order_name
+{
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.my_orders .status
+{
+  font-size: 17px;
+}
+
+.my_orders .orders_item
+{
+  padding: 35px 60px 35px 45px;
+  border-radius: 24px;
+  margin-bottom: 20px;
+}
+
+.my_orders .plus_min_box
+{
+  cursor: pointer;
+}
+
+.my_orders .company
+{
+  font-size: 17px;
+  margin-bottom: 10px;
+  color: #51607E;
+}
+
+.my_orders .order_price
+{
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.my_orders .price_box
+{
+  text-align: right;
+}
+
+.my_orders .plus_min_box
+{
+  transform: translateY(-5px);
+}
+
+.my_orders .delimeter
+{
+  width: calc(100% + 105px);
+  transform: translateX(-45px);
+  margin: 30px 0;
+  height: 2px;
+  background: #F0F4FF;
+}
+
+.my_orders .table_box
+{ 
+  display: flex;
+  align-items: flex-start;
+}
+
+.my_orders .left_col
+{
+  width: 20%;
+  padding-right: 20px;
+  color: #808DA5;
+  font-size: 16px;
+}
+
+.my_orders .right_col
+{
+  width: 80%;
+}
+
+.my_orders .flex_box
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.my_orders .phone_addr
+{
+  font-size: 17px;
+}
+
+.my_orders .phone_box
+{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.my_orders .phone_box svg
+{
+  margin-right: 10px;
+}
+
+.my_orders .rule_box
+{
+  display: flex;
+}
+
+.my_orders .rule_item
+{
+  margin-left: 30px;
+  font-size: 17px;
+  color: #2F2FA0;
+  cursor: pointer;
+}
+
+.my_orders .table_box.two
+{
+  margin-top: 40px;
+}
+
+.my_orders.univ_table .five_col
+{
+  width: 8%;
+}
+
+.my_orders.univ_table .one_col
+{
+  width: 58%;
+}
+
+.my_orders.univ_table .table_title.count_title
+{
+  margin: 0px;
+  text-align: center;
+}
+
+.my_orders.univ_table .count_prod
+{
+  margin: 0px;
+}
+
+.my_orders.univ_table .five_col.rule
+{
+  justify-content: center;
+}
+
+.my_orders .plus_col
+{ 
+  width: 20%;
+}
+
+.my_orders .result
+{
+  display: flex;
+  padding-top: 30px;
+}
+
+.my_orders .result .one_col
+{
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.my_orders .plus_col
+{
+  color: #51607E;
+  font-size: 16px;
+}
+
+.my_orders .hide_box
+{
+  margin-bottom: 10px;
+  transition: none !important;
+}
+
+/*.my_orders .right_col.prods
+{
+  overflow: auto;
+}
+
+.my_orders .prods_table
+{
+  min-width: 950px;
+}*/
+
+.my_orders.univ_table .four_col
+{
+  width: 14%;
+}
+
+.my_orders
+{
+  
+}
+
+.my_orders
+{
+  
+}
+
+.my_orders
+{
+
+}
+
+.my_orders
+{
+  
+}
+
+.my_orders
+{
+  
+}
+
+.my_orders
+{
+  
+}
+
+.my_orders
+{
+  
+}
+
+.my_orders
+{
+  
+}

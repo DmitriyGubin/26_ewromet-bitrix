@@ -1,0 +1,126 @@
+@media screen and (max-width: 1300px)
+{
+	.my_data .form_box
+	{
+		padding: 40px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.my_data #save_my_data div
+	{
+		font-size: 14px;
+	}
+
+	.my_data .toggle_box:last-child
+	{
+		margin-bottom: 0px;
+	}
+
+	.my_data .univ_form_box 
+	{
+		margin-bottom: 20px;
+	}
+
+	.my_data .sub_title {
+		margin: 10px 0 20px 0;
+	}
+
+	.my_data .toggle_box
+	{
+		margin-bottom: 15px;
+	}
+
+	.my_data .toggle_descr
+	{
+		line-height: 1.5;
+	}
+
+	.my_data .toggle_box
+	{
+		align-items: flex-start;
+	}
+
+	.my_data .form_box:first-child
+	{
+		margin-bottom: 20px;
+	}
+
+	.my_data #save_my_data
+	{
+		margin-top: 30px;
+	}
+
+	.my_data .sub_title
+	{
+		line-height: 1.7;
+	}
+
+	.my_data .sub_title {
+		margin: 20px 0 30px 0;
+	}
+
+	.my_data .form_title.two 
+	{
+		margin: 40px 0 0 0;
+	}
+
+	.my_data .univ_form_box 
+	{
+		margin-bottom: 20px;
+	}
+
+	.my_data .form_title 
+	{
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+
+	.cab_menu .menu_icon
+	{
+		margin: 0 auto;
+	}
+
+	.cab_menu 
+	{
+		grid-template-columns: repeat(3, 1fr);
+		gap: 10px;
+	}
+
+	.cab_menu .menu_item 
+	{
+		padding: 15px 0px;
+	}
+
+	.cab_menu
+	{
+		margin: 20px 0 !important;
+	}
+
+	.my_data .my_data_form
+	{
+		flex-direction: column;
+	}
+
+	.my_data .form_box
+	{
+		width: 100%;
+	}
+
+	.cab_title
+	{
+		font-size: 20px;
+	}
+
+	.my_data .form_box 
+	{
+		padding: 30px;
+	}
+
+	.my_data .form_box
+	{
+		border-radius: 24px;
+	}
+
+}

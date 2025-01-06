@@ -1,0 +1,125 @@
+@media screen and (max-width: 1300px)
+{
+	.reviews_form .form_grid 
+	{
+		grid-template-columns: 1.7fr 4fr;
+	}
+
+	.reviews_form .col
+	{
+		padding-right: 10px;
+	}
+
+	.reviews_form
+	{
+		padding: 40px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.reviews_form .form_field
+	{
+		padding-right: 30px;
+	}
+
+	.reviews_form .mobile_cross
+	{
+		position: absolute;
+		top: 15px;
+		right: 15px;
+	}
+
+	.reviews_form
+	{
+		position: relative;
+	}
+
+	.reviews .order_button.send
+	{
+		padding: 10px 30px;
+	}
+
+	.reviews_form .polite br
+	{
+		display: none;
+	}
+
+	#reviews_form
+	{
+		margin-bottom: 0px;
+	}
+
+	.reviews_form .last_line
+	{
+		margin-top: 10px;
+	}
+
+	.reviews_form .col
+	{
+		font-size: 14px;
+		padding: 0px;
+		margin-bottom: 20px;
+	}
+
+	.reviews_form .grid_item.textarea
+	{
+		height: 190px;
+	}
+
+	.reviews_form .grid_item.stars
+	{
+		margin: 10px 0;
+	}
+
+	.reviews_form
+	{
+		padding: 25px;
+		border-radius: 20px;
+	}
+
+	.reviews_form .form_title
+	{
+		font-size: 20px;
+		color: #121419;
+		margin-bottom: 20px;
+	}
+
+	.reviews_form .form_grid
+	{
+		grid-template-columns: 1fr;
+		gap: 15px;
+	}
+
+	.reviews_form .grid_item.textarea 
+	{
+		grid-row: 5 / 6;
+		grid-column: 1 / 2;
+	}
+
+	.reviews .order_button.send
+	{
+		display: flex !important;
+		width: 100%;
+		max-width: 350px;
+		margin: 0 auto;
+	}
+
+	.reviews_form .last_line,
+	.reviews .text_box
+	{
+		flex-direction: column;
+	}
+
+	.reviews_form .col,
+	.reviews_form .text_box
+	{
+		width: 100%;
+	}
+
+	.reviews .text_box
+	{
+		max-width: 400px;
+	}
+
+}

@@ -1,0 +1,130 @@
+@media screen and (max-width: 1300px)
+{
+	.call_order
+	{
+		padding: 40px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.call_order
+	{
+		margin-top: 10px !important;
+	}
+
+	.call_order #call_order_form
+	{
+		margin-bottom: 10px;
+	}
+
+	.call_order .polite
+	{
+		font-size: 14px;
+	}
+
+	.call_order .order_button
+	{
+		margin: 0px;
+		padding: 10px 30px;
+	}
+
+	.call_order .form_title_line
+	{
+		margin-bottom: 20px;
+	}
+
+	.call_order .form_title
+	{
+		font-size: 20px;
+		margin: 0px;
+	}
+
+	.call_order
+	{
+		padding: 25px;
+		border-radius: 18px;
+	}
+
+	.call_order #call_order_form 
+	{
+		grid-template-columns: 1fr;
+		gap: 20px;
+	}
+
+	.requisites .icon_box
+	{
+		display: none;
+	}
+
+	.requisites .req_item
+	{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.requisites .req_title
+	{
+		font-size: 20px;
+		line-height: 1.5;
+	}
+
+	.employees .title_text
+	{
+		padding-left: 10px;
+	}
+
+	.map_box #y_map > ymaps 
+	{
+	  border-radius: 30px;
+	}
+
+	.map_box .cont_text
+	{
+		font-size: 22px;
+	}
+
+	.map_box .cont_line
+	{
+		margin-top: 10px;
+	}
+
+	.map_box .cont_title
+	{
+		margin-bottom: 5px;
+	}
+
+	.employees .tab_item
+	{
+		padding: 20px;
+	}
+
+	.employees .tab_title
+	{
+		font-size: 17px;
+		margin-bottom: 10px;
+	}
+
+	.employees .tab_prev
+	{
+		font-size: 16px;
+	}
+
+	.employees .grid_box 
+	{
+		grid-template-columns: 1fr;
+		gap: 30px;
+	}
+
+	.employees .delimeter 
+	{
+		margin: 20px 0;
+		transform: translateX(-20px);
+		width: calc(100% + 40px);
+	}
+
+	.employees .perse_name
+	{
+		margin-bottom: 20px;
+	}
+}

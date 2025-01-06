@@ -1,0 +1,113 @@
+@media screen and (max-width: 1300px)
+{
+	.gild .text_box
+	{
+		padding-left: 20px;
+	}
+
+	.welding .text_box
+	{
+		padding-left: 20px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.gild .gild_img
+	{
+		margin-bottom: 25px;
+	}
+
+	.gild .gild_title 
+	{
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+
+	.gild .gild_text, .gild .gild_text * 
+	{
+		font-size: 16px;
+		line-height: 1.6;
+	}
+
+	.gild .gild_item
+	{
+		flex-direction: column;
+	}
+
+	.gild .gild_img,
+	.gild .text_box
+	{
+		width: 100%;
+		padding: 0px;
+	}
+
+	.welding .title,
+	.gild .title
+	{
+		margin-bottom: 30px !important;
+	}
+
+
+	 .welding .equip_img
+	 {
+	 	width: 215px !important;
+	 	margin: 0 auto 30px auto;
+	 	display: block;
+	 }
+
+	.welding .equip_title 
+	{
+		font-size: 22px;
+		margin-bottom: 10px;
+	}
+
+	.welding .equip_text, 
+	.welding .equip_text * 
+	{
+		font-size: 16px;
+		line-height: 1.6;
+	}
+
+	.equipm
+	{
+		flex-direction: column;
+	}
+
+	.equipm .eq_box
+	{
+		width: 100% !important;
+		margin-bottom: 20px !important;
+	}
+
+	.equipm .eq_name 
+	{
+		margin: 40px 0 20px 0;
+		font-size: 28px;
+		font-weight: 600;
+	}
+
+	.equipm .eq_name
+	{
+		font-size: 22px !important;
+		margin: 5px 0 15px 0 !important;
+	}
+
+	.equipm .eq_about 
+	{
+		font-size: 16px !important;
+		line-height: 1.6 !important;
+	}
+
+	.welding .weld_item
+	{
+		flex-direction: column;
+	}
+
+	.welding .equip_img,
+	.welding .text_box
+	{
+		width: 100%;
+		padding: 0px;
+	}
+}

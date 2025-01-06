@@ -1,0 +1,32 @@
+.basket .left_order_box
+{
+  overflow: auto;
+}
+
+.basket .prods_table
+{
+  min-width: 700px;
+  padding-bottom: 50px;
+}
+
+.basket .delite_finish
+{
+  cursor: pointer;
+}
+
+.basket .delite_finish:hover path
+{
+  stroke: #FF8863;
+}
+
+.univ_table .mark
+{
+	background: none !important;
+}
+
+.univ_table .count_prod
+{
+	width: 40px;
+	text-align: center;
+	margin: 0px !important;
+}
